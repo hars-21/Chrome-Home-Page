@@ -1,8 +1,25 @@
-* {
-  background-color: black;
+body {
+  background: url("assets/Classic\ Mountain.jpg") no-repeat center center/cover;
   padding: 0px;
   margin: 0px;
   font-family: "Courier New", Courier, monospace;
   height: 100vh;
   color: white;
+}
+
+.spec {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: 5rem;
+  font-stretch: 200%;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 5rem;
+  text-align: center;
+  color: black;
+  margin: 2.5rem;
+}
+footer {
+  background-color: black;
+  opacity: 0.5;
+  text-align: center;
 }
