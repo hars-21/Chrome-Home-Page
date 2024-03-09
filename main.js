@@ -55,8 +55,10 @@ function convertDay(currentDay) {
 
     case 6:
       setDay = "SATURDAY";
+      break;
 
     case 7:
       setDay = "SUNDAY";
+      break;
   }
 }
