@@ -33,6 +33,10 @@ function digit(d) {
 
 function convertDay(currentDay) {
   switch (currentDay) {
+    case 0:
+      setDay = "SUNDAY";
+      break;
+
     case 1:
       setDay = "MONDAY";
       break;
@@ -55,10 +59,6 @@ function convertDay(currentDay) {
 
     case 6:
       setDay = "SATURDAY";
-      break;
-
-    case 7:
-      setDay = "SUNDAY";
       break;
   }
 }
