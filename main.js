@@ -62,3 +62,11 @@ function convertDay(currentDay) {
       break;
   }
 }
+
+let hamburger = document.getElementsByClassName("hamburger");
+
+hamburger.addEventListener("click", () => {
+  console.log("hi");
+  let moreApps = document.getElementById("more-apps");
+  moreApps.classList.toggle("show");
+});

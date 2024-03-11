@@ -68,6 +68,31 @@ a {
   stroke-dashoffset: -32.42;
 }
 
+#more-apps {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: start;
+  height: 25rem;
+  width: 20rem;
+  position: absolute;
+  top: 4.5rem;
+  right: 2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 25px;
+  padding: 1rem;
+}
+
+.show {
+  display: flex !important;
+}
+
+.app-icon {
+  height: 3rem;
+  width: 3rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
 #socials {
   position: absolute;
   margin-top: 1rem;
