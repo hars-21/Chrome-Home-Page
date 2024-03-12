@@ -32,15 +32,15 @@ a {
   align-items: center;
 }
 
-.hamburger {
+#hamburger {
   cursor: pointer;
 }
 
-.hamburger input {
+#hamburger input {
   display: none;
 }
 
-.hamburger svg {
+#hamburger svg {
   height: 2rem;
   transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -59,11 +59,11 @@ a {
   stroke-dasharray: 12 63;
 }
 
-.hamburger input:checked + svg {
+#hamburger input:checked + svg {
   transform: rotate(-45deg);
 }
 
-.hamburger input:checked + svg .line-top-bottom {
+#hamburger input:checked + svg .line-top-bottom {
   stroke-dasharray: 20 300;
   stroke-dashoffset: -32.42;
 }
